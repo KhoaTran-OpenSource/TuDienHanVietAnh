@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CVEDictionary</string>
+    <string name="chinese_type_string">HanZi</string>
+    <string name="pinyin_type_string">PinYin</string>
+    <string name="vietnamese_type_string">Vietnamese</string>
+    <string name="english_type_string">English</string>
+    <string name="search_type_string">Search By:</string>
+
+    <!-- Title of the navigation drawer, used by accessibility to announce state changes. -->
+    <string name="drawer_title">Navigation</string>
+
+    <!-- Description of the icon that opens the navigation drawer, used by accessibility. -->
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <!-- Description of the icon that closes the navigation drawer, used by accessibility. -->
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Use the search box to look up a word</string>
+
+    <!-- Search box's hint-->
+    <string name="sb_hint_hz">Type HanZi</string>
+    <string name="sb_hint_py">Type PinYin</string>
+    <string name="sb_hint_em">Type English</string>
+    <string name="sb_hint_vm">Type VietNamese</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\":</item>
+        <item quantity="other">%1$d results for \"%2$s\":</item>
+    </plurals>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Content</string>
+</resources>
